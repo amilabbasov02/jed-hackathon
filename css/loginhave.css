@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.common-h{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 200px;
+    position: relative;
+}
+.script-icon-h{
+    padding-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 233px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: white;
+    border: solid 5px orange;
+}
+.script-icon-h img{
+        border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+   
+}
+.log-in-h{
+    width: 500px;
+    min-height: 250px;
+    
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.log-in-h>a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.log-in-h>input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.btn-login-h{
+   border: none;
+   height: 40px;
+   width: 200px;
+    border-radius: 5%;
+    background-color: orange;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.own-course-h{
+    width: 500px;
+    height: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    box-shadow: 20px;
+    
+}
+#userName{
+    color: #fdfdfd;
+}
